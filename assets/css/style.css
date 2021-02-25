@@ -8,6 +8,7 @@ body{
 {
        margin:0;
        padding:0;
+       box-sizing: border-box ;
 }
 
 /*adding style to header*/
@@ -49,4 +50,29 @@ header nav ul li a
 margin: 0 30px;
 font-weight: lighter;
 font-size: 22px;
+}
+
+/* applying styles to footer*/
+footer{
+       background-color: #fce138;
+       width:100%;
+       padding: 40px 35px;
+}
+/* Applying style to h2 element of footer*/
+footer h2{
+       color: #024e76;
+       font-size:30px;
+       margin:0;
+       display:inline;
+}
+/*Applying style to div element of footer*/
+footer div
+{
+       float:right;
+       text-align:right;
+       line-height: 1.5;
+}
+
+footer a{
+       color:#024e76;
 }
