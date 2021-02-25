@@ -1,0 +1,52 @@
+/*adding style to body*/
+body{
+       font-family: Arial, Helvetica, sans-serif;
+       color:#39a6b2;
+}
+
+*
+{
+       margin:0;
+       padding:0;
+}
+
+/*adding style to header*/
+/* Applies 20px to the top and bottom, then 35px to the left and right */
+header{
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    }
+/* Applies to the h1 element of header*/
+header h1{
+font-weight: bold;
+font-size:36px;
+color: #fce138;
+margin:0;
+display:inline;
+
+}
+/*applies to a element of header*/
+header a{
+       color: #fce138;
+       text-decoration: none;
+}
+
+/*Applies to naviagtion bar which is inside header*/
+
+header nav{
+float:right;
+margin:7px 0;
+
+}
+
+header nav ul li
+{
+display:inline;
+}
+/* margin applies here is 0 for top and bottom, 30px for right and left*/
+header nav ul li a
+{
+margin: 0 30px;
+font-weight: lighter;
+font-size: 22px;
+}
