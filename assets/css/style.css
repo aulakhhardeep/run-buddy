@@ -144,18 +144,6 @@ h3{
 {
        text-align: center;
 }
-/*Apply CSS to h2 element of section here padding top is 0, right is 100, bottom is 20 and left is 100*/
-.intro h2{
-       display:inline-block;
-       font-size: 55px;
-       color:#024e76;
-       margin-bottom: 35px;
-       padding:0 100px 20px 100px;
-       border-bottom:3px solid;
-       border-color: #fce138;
-
-
-}
 /* Apply CSS to paragraph element of section. Here margin 0 auto means top and bottom margins are 0 
 and browser will calculate left and right margins for us. It is used when width is less than 100% and we want to put an element in the center*/
 .intro p{
@@ -165,4 +153,57 @@ and browser will calculate left and right margins for us. It is used when width 
        font: size 20px;
        margin:0 auto;
 
+}
+/*Apply CSS to section element*/
+.steps { 
+       text-align: center;
+       background: #fce138;
+     }
+
+/*Apply CSS to h2 elements of section "What we do" and "what you do"*/
+.section-title
+{
+      
+       font-size: 55px;
+       color: #024e76;
+       margin-bottom: 35px;
+       padding: 0 100px 20px 100px;
+       display: inline-block;
+       border-bottom: 3px solid;
+            
+}
+/*Apply border color to h2 element of "What we do"*/
+.primary-border 
+{
+       border-color: #fce138;
+     }
+/*Apply border color to h2 element of "What you do"*/
+.secondary-border 
+{
+       border-color: #39a6b2;
+     }
+
+.steps div
+{
+       margin-bottom:80px;
+}
+.steps img
+{
+       width:15%;
+       margin:10px 0;
+
+}
+.steps h3{
+       color:#024e76;
+       margin-top: 10px;
+       font-size: 46px;
+}
+.steps p
+{
+       color: #39a6b2;
+       font-size: 23px;
+}
+.steps span
+{
+       font-size: 38px;
 }
