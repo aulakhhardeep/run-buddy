@@ -139,3 +139,30 @@ h3{
        padding:10px 20px;
        font-size:16px;
 }
+
+.intro
+{
+       text-align: center;
+}
+/*Apply CSS to h2 element of section here padding top is 0, right is 100, bottom is 20 and left is 100*/
+.intro h2{
+       display:inline-block;
+       font-size: 55px;
+       color:#024e76;
+       margin-bottom: 35px;
+       padding:0 100px 20px 100px;
+       border-bottom:3px solid;
+       border-color: #fce138;
+
+
+}
+/* Apply CSS to paragraph element of section. Here margin 0 auto means top and bottom margins are 0 
+and browser will calculate left and right margins for us. It is used when width is less than 100% and we want to put an element in the center*/
+.intro p{
+       line-height: 1.7;
+       color:#39a6b2;
+       width: 80%;
+       font: size 20px;
+       margin:0 auto;
+
+}
