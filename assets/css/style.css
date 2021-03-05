@@ -41,18 +41,22 @@ margin:7px 0;
 
 }
 
-header nav ul li
+
+header nav ul 
 {
-display:inline;
-}
-/* margin applies here is 0 for top and bottom, 30px for right and left*/
-header nav ul li a
-{
-margin: 0 30px;
-font-weight: lighter;
-font-size: 22px;
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       list-style: none;
 }
 
+/*margin applies here is 0 for top and bottom, 30px for right and left*/
+header nav ul li a {
+       margin: 0 30px;
+       font-weight: lighter;
+       font-size: 1.55vw;
+     }
 /* applying styles to footer*/
 footer{
        background-color: #fce138;
